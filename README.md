@@ -1,8 +1,32 @@
-# bootcamp_hw5_DataVisualization
-Alison McCondichie - Homework 5 - Data Visualization Challenge
+# 🧪 Tumor Treatment Study Analysis (Pandas + Matplotlib)
+This project analyzes data from a preclinical study testing the effectiveness of various drug regimens on mice with tumors. Using Pandas and Matplotlib, the goal was to clean the data, perform exploratory analysis, and visualize the results to assess drug performance.
 
-The objective of this notebook is to exam data from a study ran on mice with tumors treated with a variety of drug regimens and create visualizations of the results to easily draw conclusions of drug regimen success. Some data cleaning and statistical functions were required to filter and create information that was helpful for our conclusions.
+🔍 Project Objectives
+Clean and filter raw experimental data for analysis
 
-One important conclusion drawn from the data is that Capomulin and Ramicane are the two most success drugs in this treatment study. We can see this from the bar chart showing amount of timepoints per drug regimen. More timepoints means mice lasted longer, mice that lasted the longest through the study were treated with those two drugs.
+Perform statistical summaries on tumor volume and timepoints
 
-Another evident conclusion is that there is a strong positive correlation between mouse weight and tumor volume. You can visualize this really well in the final scatter plot in this notebook that includes a regression line. As mouse weight increases, tumor volume consistently increases as well.
+Visualize key trends using bar charts, box plots, scatter plots, and regression analysis
+
+📊 Key Findings
+Capomulin and Ramicane were the two most effective drug regimens, as seen in bar and box plots showing greater timepoint frequency and lower tumor volume variation.
+
+There is a strong positive correlation between mouse weight and tumor volume, confirmed by a scatter plot with a fitted regression line.
+
+📁 Deliverables
+Jupyter Notebook with step-by-step analysis
+
+Multiple visualizations using Matplotlib
+
+Cleaned and processed dataset
+
+Written interpretation of major insights
+
+🧰 Tools Used
+Python
+
+Pandas for data manipulation
+
+Matplotlib for data visualization
+
+Numpy & SciPy for basic statistics
